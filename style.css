@@ -1,0 +1,253 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+            background-color: black;
+            color: white;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 32px;
+            background: black;
+            color: #fff;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .sublogo-text {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: greenyellow;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 6px 10px;
+            transition: background 0.2s;
+            border-radius: 4px;
+        }
+        nav a:hover {
+            background: #444;
+            color: white;
+        }
+        .get-started {
+            background: greenyellow;
+            color: black;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 4px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-left: 16px;
+            transition: background 0.2s;
+            text-decoration: none;
+        }
+        .get-started:hover {
+            background: #009e8e;
+        }
+        .mainbody{
+            justify-content: center;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+        .minorbody{
+            padding: 10%;
+        }
+        .firstp{
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .secondp{
+            font-size: 25px;
+        }
+        .learnbtn{
+            font-size:  20px ;
+            padding: 20px 30px 20px 30px;
+            border-radius: 10px;
+            background-color: greenyellow;
+            border: none;
+            margin-bottom: 30px;
+        }
+        #rea{
+            color: greenyellow;
+            font-size: 50px;
+        }
+        .divider:before, .divider:after {
+            content: "";
+            display: inline-block;
+            width: 15%;
+            height: 1px;
+            background: greenyellow;
+            vertical-align: middle;
+            margin: 0 8px;
+        }
+        .divider {
+            text-align: center;
+            color: white;
+            font-size: 0.95rem;
+            position: relative;
+            margin-top: 50px;
+        }
+        .p3{
+            font-size: 20px;
+            color: greenyellow;
+            margin-top: 60px;
+        }
+        .p4{
+            font-size: 30px;
+            color: white;
+            font-weight: bolder;
+        }
+        .mainb{
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            
+        }
+        .b1, .c1 {
+            display: flex;
+            gap: 5px;
+            margin-top: 5px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .b1 div, .c1 div {
+            background: greenyellow;
+            color: black;
+            padding: 7px;
+            height: 30px;
+            border-radius: 3px;
+            text-align: center;
+            padding-top: 15px;
+            
+            align-self: center;
+            
+            
+        }
+        .p5{
+            font-size: 20px;
+            color: greenyellow;
+            margin-top: 90px;
+            text-align: left;
+        }
+        .hww{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .hww1 {
+            border: none;
+            text-align: left;
+            font-size: 50px;
+            font-weight: bolder;
+        }
+        .hww2 {
+            height: 200px;
+            border: none;
+            text-align: left;
+            font-size: 20px;
+        }
+        .sp{
+            font-size:  15px ;
+            padding: 10px 20px 10px 20px;
+            border-radius: 10px;
+            background-color: greenyellow;
+            border: none;
+            margin-top: 20px;
+            cursor: pointer;
+        }  
+        .maingrid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 200px);
+            margin-top: 20px;
+        }
+        .maingrid div {
+            padding: 5px;
+            justify-content: left;
+            text-align: left;
+        }
+        i {
+            font-size: 30px;
+            color: greenyellow;
+        }
+        .p6{
+            font-weight: bolder;
+            font-size: larger;
+        }
+        .mainbody2{
+            width: 100%;
+            height: 1000px;
+            background-color: white;
+            color: black;
+            
+        }
+        .minorbody2{
+            padding: 10%;
+            text-align: center;
+            justify-content: center;
+        }
+        .graydiv{
+            background-color: whitesmoke;
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            text-align: left;
+            padding: 10%;
+            gap: 10%;
+            box-shadow: 2px 2px rgb(243, 235, 235);
+            border-radius: 15px;
+        }
+        .greydi2v div{
+            padding: 10px;
+        }
+        .mainbody3{
+            width: 100%;
+            height: 1000px;
+            background-color: black;
+            color:white;
+        }
+        .minorbody3{
+            display: flex;
+            gap: 20px;
+            padding: 10%;
+            height: 80%;
+            gap: 50px;
+        }
+        .standard, .growth, .basic{
+            border-color: greenyellow;
+            background-color: rgb(20, 19, 19);
+            width: 30%;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 2px 2px greenyellow;
+           
+        }
+        .mp{
+            background-color: greenyellow;
+            padding: 7px;
+        }
+        .m3{
+            font-size: 20px;
+            font-weight: bolder;
+
+        }
+        .st{
+            display: flex;
+            gap: 10%;
+            
+            align-self: center;
+        }
